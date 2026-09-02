@@ -78,6 +78,7 @@ import android.widget.TextView;
 import android.widget.Toolbar;
 
 import com.android.calculator2.CalculatorFormula.OnTextSizeChangeListener;
+import com.android.calculator2.license.LicensesActivity;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -1297,7 +1298,7 @@ public class Calculator extends Activity
             displayFraction();
             return true;
         } else if (itemId == R.id.menu_licenses) {
-            startActivity(new Intent(this, Licenses.class));
+            startActivity(new Intent(this, LicensesActivity.class));
             return true;
         }
         return super.onOptionsItemSelected(item);

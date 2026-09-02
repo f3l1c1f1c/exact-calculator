@@ -56,6 +56,7 @@ dependencies {
     implementation("androidx.viewpager:viewpager:1.1.0")
     implementation("androidx.recyclerview:recyclerview:1.3.2")
     implementation("com.google.android.material:material:1.14.0")
+    implementation("androidx.compose.material:material-icons-extended")
 
     // Compose Core
     implementation(libs.androidx.core.ktx)
